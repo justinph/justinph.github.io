@@ -1,0 +1,23 @@
+/**
+    Thanks, Cooper Hewitt
+    http://www.cooperhewitt.org/colophon/cooper-hewitt-the-typeface-by-chester-jenkins/
+ */
+
+@font-face{ 
+    font-family: 'CooperHewitt';
+    src: url('/font/CooperHewitt-Medium.eot');
+    src: url('/font/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'),
+         url('/font/CooperHewitt-Medium.svg') format('svg'),
+         url('/font/CooperHewitt-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face{ 
+    font-family: 'CooperHewitt';
+    src: url('/font/CooperHewitt-Bold.eot');
+    src: url('/font/CooperHewitt-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/font/CooperHewitt-Bold.svg') format('svg'),
+         url('/font/CooperHewitt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal; 
+}

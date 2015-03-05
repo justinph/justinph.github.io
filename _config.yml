@@ -10,3 +10,9 @@ github_username:  justinph
 
 # Build settings
 markdown: kramdown
+
+
+collections:
+  projects:
+    output: true
+    permalink: /project/:path/
