@@ -1,0 +1,39 @@
+
+header{
+    img{
+        border-radius: 50%;
+    }
+    .avatar{
+        width: 33%;
+        float: left;
+    }
+    .masthead{
+        width: 66%;
+        float: left;
+    }
+
+    h1{
+        margin: 0;
+    }
+    h2{
+        font-weight: normal;
+        color: #fff;
+        margin: 0;
+    }
+    nav{
+
+        .u{
+            text-decoration: underline;
+        }
+        a{
+            color: $super-dark;
+            padding-right: .5em;
+            text-decoration: none;
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+    @include clearfix();
+}
+

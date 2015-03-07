@@ -1,0 +1,38 @@
+// Our variables
+$base-font-family: 'CooperHewitt', Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+
+$text-color:       #1f3347;
+$background-color: #9acaf9;
+$brand-color:      #3e6e9d;
+$super-dark:       #1f3347;
+
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: $brand-color;
+}
+
+
+a{
+    color: $brand-color;
+    transition: background-color 0.15s ease-in-out, color .15s ease-in-out;
+    &:hover{
+        color: $super-dark;
+    }
+}

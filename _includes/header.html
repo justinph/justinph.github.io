@@ -1,20 +1,16 @@
 <header class="site-header">
 
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
-  </div>
+    <div class='avatar'>
+        <img src="/images/justinph.jpg" srcset='/images/justinph.jpg 1x, /images/justinph-2x.jpg 2x' alt='justinph avatar'/>
+    </div>
+    <div class='masthead'>
+        <h1>Justin Heideman</h1>
+        <h2>Full Stack Web Designer</h2>
+        <nav>
+            <a href="mailto:justin@fiddlyio.com" class='u'>justin@fiddlyio.com</a>
+            <a href="https://twitter.com/justinph">@<span class='u'>justinph</span></a>
+            <a href="https://github.com/justinph" class='u'>github</a>
+        </nav>
+    </div>
 
 </header>

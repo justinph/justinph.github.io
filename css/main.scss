@@ -5,38 +5,20 @@
 
 
 
-// Our variables
-$base-font-family: 'CooperHewitt', Helvetica, Arial, sans-serif;
-$base-font-size:   18px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-
-$text-color:       #1f3347;
-$background-color: #9acaf9;
-$brand-color:      #3e6e9d;
-
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+    "definitions",
     "font",
-    "base",
+    "reset",
     "layout"
 ;
+
+
+@media only screen and (min-width: 33.8125em ){ //541px
+
+    @import "layout_medium";
+
+
+}
