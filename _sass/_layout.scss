@@ -37,3 +37,31 @@ header{
     @include clearfix();
 }
 
+h3.page-heading{
+    text-align: center;
+    color: #fff;
+    font-size: 2.33334em;
+    &:before{
+        content: '↓ ';
+        font-weight: normal;
+    }
+    &:after{
+        content: ' ↓';
+        font-weight: normal;
+    }
+}
+
+.project-list{
+    a{
+        text-decoration: none;
+        h2, 
+        h3{
+            margin: 0;
+            padding: 0;
+            //text-decoration: none;
+        }
+        h3{
+            font-weight: normal;
+        }
+    }
+}

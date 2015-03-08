@@ -18,7 +18,7 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
+    //font-weight: 300;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -35,4 +35,12 @@ a{
     &:hover{
         color: $super-dark;
     }
+}
+
+.more{
+    text-decoration: none;
+    background: #fff;
+    padding: 6px 6px 3px;
+    margin: .2em;
+    color: $brand-color;
 }

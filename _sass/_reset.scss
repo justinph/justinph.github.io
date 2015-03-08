@@ -73,6 +73,7 @@ html {
 
 body {
     margin: 0;
+    padding: .5rem .7rem;
 }
 
 /* ==========================================================================
@@ -395,6 +396,21 @@ table {
     border-spacing: 0;
 }
 
+
+img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
 
 // Clearfix
 //

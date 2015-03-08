@@ -5,7 +5,7 @@ permalink: /projects/mprnews/
 subhead: Website redesign, Fall 2013 - Fall 2014
 link: http://www.mprnews.org
 image: mprnews.jpg
-excerpt: <p>Minnesota Public Radio News is one of the nation’s most successful regional public radio franchises. It needed a dramatic overhaul of it’s website to match it’s large digital-only reporting efforts while still keeping audio listening a first-class experience.</p> <p>This is a responsive website in the truest sense of the word; it’s designed to be fast and to look good and work well on all screen sizes.</p> 
+excerpt: <p>Minnesota Public Radio News is one of the nation’s most successful regional public radio franchises. It needed a substantial overhaul of it’s website to match it’s large digital-only reporting efforts while still keeping audio listening a first-class experience.</p> <p>This is a responsive website in the truest sense of the word; it’s designed to be fast and to look good and work well on all screen sizes.</p> 
 
 ---
 
