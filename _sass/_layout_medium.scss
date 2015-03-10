@@ -33,3 +33,13 @@ header{
     }
 
 }
+
+.about-info{
+    li{
+        margin: 0 15%;
+    }
+    h4{
+        margin-bottom: 0;
+    }
+    @include clearfix();
+}

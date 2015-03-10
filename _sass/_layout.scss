@@ -28,21 +28,20 @@ header{
         color: #fff;
         margin: 0;
     }
-    nav{
-
-        .u{
-            text-decoration: underline;
-        }
-        a{
-            color: $super-dark;
-            padding-right: .5em;
-            text-decoration: none;
-            &:hover{
-                color: #fff;
-            }
+    @include clearfix();
+}
+nav{
+    .u{
+        text-decoration: underline;
+    }
+    a{
+        color: $super-dark;
+        padding-right: .5em;
+        text-decoration: none;
+        &:hover{
+            color: #fff;
         }
     }
-    @include clearfix();
 }
 
 h3.page-heading{
@@ -60,16 +59,36 @@ h3.page-heading{
 }
 
 .project-list{
+    li{
+        margin-bottom: 2em;
+    }
     a{
         text-decoration: none;
-        h2, 
-        h3{
+        h2 {
             margin: 0;
             padding: 0;
-            //text-decoration: none;
+           
         }
         h3{
+            margin-top: 0;
             font-weight: normal;
+        }
+    }
+}
+
+.about-info{
+
+}
+
+footer{
+    margin: 3em 1em 1em;
+    nav{
+        text-align: center;
+        a{
+            color: #fff;
+            &:hover{
+                color: $brand-color;
+            }
         }
     }
 }
