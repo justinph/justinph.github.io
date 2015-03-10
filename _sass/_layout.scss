@@ -2,6 +2,11 @@
 header{
     img{
         border-radius: 50%;
+        max-width: 5em;
+        display: block;
+        //margin: 0 auto;
+        float: right;
+        margin: 0 1em;
     }
     .avatar{
         width: 33%;
@@ -14,8 +19,11 @@ header{
 
     h1{
         margin: 0;
+        font-size: 1.7em;
+
     }
     h2{
+        font-size: 1.3em;
         font-weight: normal;
         color: #fff;
         margin: 0;

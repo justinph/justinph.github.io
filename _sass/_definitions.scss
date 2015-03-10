@@ -16,9 +16,8 @@ $super-dark:       #1f3347;
  */
 body {
     font-family: $base-font-family;
-    font-size: $base-font-size;
+    font-size: $base-font-size*0.7;
     line-height: $base-line-height;
-    //font-weight: 300;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
