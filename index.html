@@ -31,9 +31,7 @@ layout: default
             <a href="{{ project.link }}" class='more'>Visit site</a>  
             {% endif %}
 
-            {% if project.link %}
             <a href="{{ project.url | prepend: site.baseurl }}" class='more'>Screenshots &amp; nerd details→</a>
-            {% endif %}
             </div>
         </li>
     {% endfor %}

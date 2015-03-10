@@ -30,12 +30,13 @@ h1, h2, h3, h4, h5, h6{
 
 a{
     color: $brand-color;
-    transition: background-color 0.15s ease-in-out, color .15s ease-in-out;
     &:hover{
         color: $super-dark;
     }
 }
-
+a, p, h1, h2, h3, h4, h5, h6{
+    transition: background-color 0.15s ease-in-out, color .15s ease-in-out;
+}
 .more{
     text-decoration: none;
     background: #fff;

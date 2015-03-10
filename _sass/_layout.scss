@@ -1,20 +1,44 @@
 
 header{
+    a{
+        text-decoration: none;
+        h1, h2{
+
+        }
+        &:hover{
+            h1{    
+                color: $super-dark;
+            }
+            img{
+                border-color: #fff;
+            }
+        }
+    }
     img{
         border-radius: 50%;
         max-width: 5em;
         display: block;
         //margin: 0 auto;
-        float: right;
-        margin: 0 1em;
+        //float: left;
+        //margin: 0 1em;
     }
+    // .avatar{
+    //     width: 33%;
+    //     float: left;
+    // }
     .avatar{
-        width: 33%;
+        width: 30%;
         float: left;
+        img{
+            float: right;
+            margin: 0 15% 0 0;
+            border: 5px solid $background-color; 
+            transition: border-color .15s ease-in-out
+        }
     }
     .masthead{
-        width: 66%;
-        float: left;
+        width: 100%;
+        // float: left;
     }
 
     h1{
@@ -28,6 +52,9 @@ header{
         color: #fff;
         margin: 0;
     }
+    h1, h2, nav{
+        margin-left: 30%;
+    }
     @include clearfix();
 }
 nav{
@@ -38,6 +65,7 @@ nav{
         color: $super-dark;
         padding-right: .5em;
         text-decoration: none;
+        font-size: .7rem;
         &:hover{
             color: #fff;
         }
@@ -75,6 +103,11 @@ h3.page-heading{
         }
     }
 }
+.project-detail{
+    h1{ margin-bottom: 0;}
+    h2{ margin-top: 0;}
+}
+
 
 .about-info{
 
