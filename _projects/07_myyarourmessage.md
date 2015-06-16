@@ -2,6 +2,7 @@
 layout: project
 title: My Yard Our Message
 permalink: /projects/myyardourmessage/
+directlink: true
 subhead: Interactive art project, 2008
 link: http://myyardourmessage.com/
 image: myom.jpg

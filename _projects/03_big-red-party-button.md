@@ -2,6 +2,7 @@
 layout: project
 title: Big Red Party Button
 permalink: /projects/bigredpartybutton/
+directlink: true
 subhead: Internet connected photobooth, 2007&ndash;Present
 link: http://bigredpartybutton.com
 image: bigredpartybutton.jpg

@@ -2,6 +2,7 @@
 layout: project
 title: The Current
 permalink: /projects/thecurrent/
+directlink: true
 subhead: Website redesign, Fall 2012
 link: http://www.thecurrent.org
 image: thecurrent.jpg

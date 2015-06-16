@@ -2,6 +2,7 @@
 layout: project
 title: Oliver + S
 permalink: /projects/oliverands/
+directlink: true
 subhead: Website redesign, Ongoing
 link: https://oliverands.com/
 image: oliverands.jpg

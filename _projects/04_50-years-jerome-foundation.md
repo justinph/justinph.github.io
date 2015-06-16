@@ -2,6 +2,7 @@
 layout: project
 title: 50 Years of the Jerome Foundation
 permalink: /projects/50-years-jerome-foundation/
+directlink: true
 subhead: Interactive dataviz, Winter 2013/2014
 link: http://50.jeromefdn.org
 image: jerome50.jpg

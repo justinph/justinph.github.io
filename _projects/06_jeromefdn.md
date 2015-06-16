@@ -2,6 +2,7 @@
 layout: project
 title: Jerome Foundation
 permalink: /projects/jeromefdn/
+directlink: true
 subhead: Website redesign, 2011
 link: http://jeromefdn.org/
 image: jeromefdn.jpg
