@@ -6,6 +6,6 @@ directlink: true
 subhead: Internet connected photobooth, 2007&ndash;Present
 link: http://bigredpartybutton.com
 image: bigredpartybutton.jpg
-excerpt: <p>Minnesota Public Radio News is one of the nation’s most successful public radio franchises. It needed a substantial overhaul of it’s website to match it’s large digital-only reporting efforts while still keeping audio listening a first-class experience.</p> <p>This is a responsive website in the truest sense of the word; it’s designed to be fast and to look good and work well on all screen sizes.</p> 
+excerpt: <p>To add more posh appeal to the Walker Art Center's After Hours preview parties, I created this photobooth-on-steriods. It takes a photo of visitors, using a high-fashion ring flash, and automatically displays the photo via several projectors. Photos can also be uploaded to flickr, facebook, or other sources in real time.</p> 
 
 ---
