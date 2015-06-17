@@ -113,6 +113,23 @@ h3.page-heading{
 
 }
 
+dl{}
+dt{
+    //font-size: .9rem;
+    color: $brand-color; 
+}
+dd{
+    margin: 0 0 1rem 0;
+    a{
+        color: $super-dark;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+
 footer{
     margin: 3em 1em 1em;
     nav{
