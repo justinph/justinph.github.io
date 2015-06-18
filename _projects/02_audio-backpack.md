@@ -5,7 +5,7 @@ permalink: /projects/audio-backpack/
 subhead: Music collection app, Winter 2014/2015
 link: https://apps.classicalmpr.org/audio-backpack/
 image: audiobackpack.png
-excerpt: <p>Music educators have a difficult time finding sample audio to use in their classrooms and assignments. Minnesota Public Radio’s classical music staff knew how to help them, but needed a way to present the audio.</p> <p>This client-side app helps teachers create custom playlists for their classes and share them with students. </p> 
+excerpt: <p>Music educators have a difficult time finding sample audio to use in their classrooms and assignments. Minnesota Public Radio’s classical music staff knew how to help them, but needed a way to share their expertise and audio collection.</p> <p>This client-side app helps teachers create custom playlists for their classes and share them with students. </p> 
 
 ---
 
