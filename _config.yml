@@ -4,7 +4,7 @@ email: justin@fiddlyio.com
 description: > # this means to ignore newlines until "baseurl:"
   The website of full stack web developer Justin Heideman, based in Minneapolis, MN.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://justinph.github.io" # the base hostname & protocol for your site
+url: "http://fiddlyio.com" # the base hostname & protocol for your site
 twitter_username: justinph
 github_username:  justinph
 
