@@ -11,7 +11,11 @@ layout: default
     {% for project in site.projects %} 
         <li>
             {% if project.image %}
+                {% if project.directlink %}
+                <a href="{{ project.link }}">
+                {% else %}
                 <a href="{{ project.url | prepend: site.baseurl }}"> 
+                {% endif %}
                     <img src="{{ site.baseurl }}/images/{{project.image}}" alt="{{project.title}}" />
                 </a>
             {% endif %}
