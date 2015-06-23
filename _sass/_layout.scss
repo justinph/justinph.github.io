@@ -107,14 +107,15 @@ h3.page-heading{
     h1{ margin-bottom: 0;}
     h2{ margin-top: 0;}
     img.up-1{
+        // margin-top: 0;
         width:49.5%; float: left; margin-right: 1%;
     }
     img.up-2{
+        // margin-top: 0;
         width:49.5%; float: left;
-        &:after{
-            content: ' ';
-            clear: both;
-        }
+    }
+    p{
+    @include clearfix();
     }
 }
 
