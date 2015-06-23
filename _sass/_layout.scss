@@ -2,16 +2,19 @@
 header{
     a{
         text-decoration: none;
-        h1, h2{
-
+        h1{
+            margin: .3em 0 -.2em;
+        }
+        img{
+            border-color: #fff;
         }
         &:hover{
             h1{    
                 color: $super-dark;
             }
-            img{
-                border-color: #fff;
-            }
+            // img{
+            //     border-color: #fff;
+            // }
         }
     }
     img{
@@ -32,7 +35,7 @@ header{
         img{
             float: right;
             margin: 0 15% 0 0;
-            border: 5px solid $background-color; 
+            border: 5px solid #fff; //$background-color; 
             transition: border-color .15s ease-in-out
         }
     }
@@ -62,12 +65,12 @@ nav{
         text-decoration: underline;
     }
     a{
-        color: $super-dark;
+        color: #fff;
         padding-right: .5em;
         text-decoration: none;
         font-size: .7rem;
         &:hover{
-            color: #fff;
+            color: $super-dark;
         }
     }
 }
@@ -89,9 +92,15 @@ h3.page-heading{
 .project-list{
     li{
         margin-bottom: 2em;
+        img{
+            border: 5px solid #fff;
+        }
     }
     a{
         text-decoration: none;
+        &:hover{
+            h2, h3{ color: $super-dark; }
+        }
         h2 {
             margin: 0;
             padding: 0;
