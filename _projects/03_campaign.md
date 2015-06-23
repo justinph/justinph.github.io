@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Campaign 2012 & 2014
-permalink: /projects/campaign-2012/
+title: Election 2012 & 2014
+permalink: /projects/election-2012/
 directlink: true
 subhead: Election coverage, 2012, 2014
 link: http://apps.mprnews.org/election2014/

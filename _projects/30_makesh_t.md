@@ -5,11 +5,11 @@ permalink: /projects/makesh_t/
 subhead: Weekly creative outlet
 link: http://www.makeshit.org
 image: makeshit.jpg
-excerpt:  <p>An elastic group of designers, writers, architects, and other creative pals meet weekly for a late-night sessions of creative <em>making</em>. Sometimes just an excuse to drink beer and doodle aimlessly and/or make noise, the collaboration has borne fruit into two public art projects.</p>
+excerpt:  <p>An elastic group of designers, writers, architects, and other creative pals meet weekly for late-night sessions of creative <em>making</em>. Sometimes just an excuse to drink beer and doodle aimlessly and/or make noise, the collaboration has borne fruit into two public art projects.</p>
 
 ---
 
-MakeSh!t started as an outlet for a group of friends that didn't get to fully flex all their creative muscles during their day jobs. Over the years, the group has explored a variety of media and ways of making. Sometimes the meeting is just an excuse to bullsh!t and drink beer, other times the making is focused and organized, as with our two public art projects.
+MakeSh!t started as an outlet for a group of friends that didn't get to fully flex all their creative muscles during their day jobs. Over the last several years, the group has explored a variety of media and ways of making. Sometimes the meeting is just an excuse to bullsh!t and drink beer, other times the making is focused and organized, as with our two public art projects.
 
 
 ### Move Your Hole

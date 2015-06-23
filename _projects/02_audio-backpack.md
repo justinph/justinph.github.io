@@ -11,12 +11,11 @@ excerpt: <p>Music educators have a difficult time finding sample audio to use in
 
 Music educators often have a difficult time finding music that is of good quality, easily aggregated, and not rights encumbered for use in their lessons. This web app aims to solve these problems.
 
-The staff of Classical MPR has a wealth of knowledge about classical music and is very focused on music education. They identified and cut over 200 different segments of audio that exemplify different concepts in music. 
+The staff of Classical MPR has a wealth of knowledge about classical music and is very focused on music education. They identified and cut over 200 different segments of audio that exemplify different musical concepts. 
 
 The web application I designed and built to share these clips and allow educators to search, save, and share them was based on [ember.js](http://emberjs.com/) and [bootstrap](http://getbootstrap.com/). This was one of the first true client-side only projects I have done; I went in a critic of this methodology and came away a believer. We use [prerender.io](prerender.io) to make sure that we send full HTML down the wire to sharing services and search engines. 
 
 <img src="/images/audio-backpack/index.jpg" srcset="/images/audio-backpack/index-2x.jpg 2x"  alt="audio backpack home"/>
-
 
 <img src="/images/audio-backpack/search.jpg" srcset="/images/audio-backpack/search-2x.jpg 2x"  alt="audio backpack search"/>
 
