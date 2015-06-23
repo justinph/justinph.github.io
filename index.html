@@ -10,19 +10,8 @@ layout: default
 
     {% for project in site.projects %} 
         <li>
-            {% if project.image %}
-                {% if project.directlink %}
-                <a href="{{ project.link }}">
-                {% else %}
-                <a href="{{ project.url | prepend: site.baseurl }}"> 
-                {% endif %}
-                    <img src="{{ site.baseurl }}/images/{{project.image}}" alt="{{project.title}}" />
-                </a>
-            {% endif %}
 
-            <div>  
-
-            {% if project.directlink %}
+             {% if project.directlink %}
             <a href="{{ project.link }}">
             {% else %}
             <a href="{{ project.url | prepend: site.baseurl }}"> 
@@ -31,7 +20,14 @@ layout: default
                 {% if project.subhead %}
                 <h3>{{project.subhead}}</h3>
                 {% endif %}
-            </a>
+            
+
+                {% if project.image %}
+                    <img src="{{ site.baseurl }}/images/{{project.image}}" alt="{{project.title}}" />
+                {% endif %}
+                </a>
+
+            <div>  
 
             {{ project.excerpt }}
 

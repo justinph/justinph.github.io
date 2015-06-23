@@ -29,9 +29,14 @@ nav{
 
 .project-list{
     li{
+        h2,h3{
+            float: left;
+            margin-left: 50%;
+        }
         img{
             float: left;
             max-width: 45%;
+            margin-top: -4.85em;
             //margin: 0 5% 1em 0;
         }
         div{
