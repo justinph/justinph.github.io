@@ -1,0 +1,8 @@
+When a linked item appears in a news feed that links to a page that contains an <object> tag that has a data-URI containing svg, the in-app browser briefly opens and then closes, preventing the user from seeing the linked page. It does not appear to affect raster images that are encoded into a data-URI. 
+
+I've made a test page that demonstrates this. Post to your wall/news feed and then view it in the Facebook android app: 
+http://fiddlyio.com/misc/fb/svg-choke.html
+
+This occurs in v24.0.0.30.15 of the Android app, tested on android 5.x. It does not appear to affect the Facebook iOS app, nor does it affect other browsers on Android. 
+
+My gut tells me this might have something to do with a cross domain or content security policy issue. 
