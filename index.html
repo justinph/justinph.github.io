@@ -23,7 +23,7 @@ layout: default
             
 
                 {% if project.image %}
-                    <img src="{{ site.baseurl }}/images/{{project.image}}" alt="{{project.title}}" />
+                    <img src="{{ site.baseurl }}/images/{{project.image}}" alt="{{project.title}}" class="{{ project.title | slugify }}"/>
                 {% endif %}
                 </a>
 

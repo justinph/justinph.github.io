@@ -9,7 +9,7 @@ excerpt: <p>Music educators have a difficult time finding sample audio to use in
 
 ---
 
-Music educators often have a difficult time finding music that is of good quality, easily aggregated, and not rights encumbered for use in their lessons. This web app aims to solve these problems.
+Music educators often have a difficult time finding music that is of good quality, easily aggregated, and not rights-encumbered for use in their lessons. This web app aims to solve these problems.
 
 The staff of Classical MPR has a wealth of knowledge about classical music and is very focused on music education. They identified and cut over 200 different segments of audio that exemplify different musical concepts. 
 

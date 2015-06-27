@@ -95,6 +95,9 @@ h3.page-heading{
         img{
             border: 5px solid #fff;
             margin-bottom: .75em;
+            &.mpr-news{
+                border: 0;
+            }
         }
     }
     a{
