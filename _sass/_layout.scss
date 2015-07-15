@@ -119,6 +119,16 @@ h3.page-heading{
 .project-detail{
     h1{ margin-bottom: 0;}
     h2{ margin-top: 0;}
+    h3 + p > img,
+    h3 + p > a img{
+        margin-top: 0;
+    }
+    h3{
+        color: $super-dark;;
+        a{
+
+        }
+    }
     img.up-1{
         // margin-top: 0;
         width:49.5%; float: left; margin-right: 1%;
