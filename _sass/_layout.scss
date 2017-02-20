@@ -9,7 +9,7 @@ header{
             border-color: #fff;
         }
         &:hover{
-            h1{    
+            h1{
                 color: $super-dark;
             }
             // img{
@@ -35,7 +35,7 @@ header{
         img{
             float: right;
             margin: 0 15% 0 0;
-            border: 3px solid #fff; //$background-color; 
+            border: 3px solid #fff; //$background-color;
             transition: border-color .15s ease-in-out
         }
     }
@@ -95,7 +95,8 @@ h3.page-heading{
         img{
             border: 5px solid #fff;
             margin-bottom: .75em;
-            &.mpr-news{
+            &.mpr-news,
+            &.sewing-translator{
                 border: 0;
             }
         }
@@ -108,7 +109,7 @@ h3.page-heading{
         h2 {
             margin: 0;
             padding: 0;
-           
+
         }
         h3{
             margin-top: 0;
@@ -143,12 +144,12 @@ h3.page-heading{
 }
 
 /* Video - Mad props to http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/ ---------------------- */
-.flex-video { 
-    position: relative; 
-    padding-top: 25px; 
-    padding-bottom: 54%; 
-    height: 0; 
-    margin: 0 2em 16px; 
+.flex-video {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 54%;
+    height: 0;
+    margin: 0 2em 16px;
     overflow: hidden; }
 .flex-video iframe, .flex-video object, .flex-video embed, .flex-video video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;}
 
@@ -160,7 +161,7 @@ h3.page-heading{
 dl{}
 dt{
     //font-size: .9rem;
-    color: $brand-color; 
+    color: $brand-color;
 }
 dd{
     margin: 0 0 1rem 0;

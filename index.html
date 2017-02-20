@@ -8,31 +8,35 @@ layout: default
 
   <ul class="project-list">
 
-    {% for project in site.projects %} 
+    {% for project in site.projects %}
         <li>
 
              {% if project.directlink %}
             <a href="{{ project.link }}">
             {% else %}
-            <a href="{{ project.url | prepend: site.baseurl }}"> 
+            <a href="{{ project.url | prepend: site.baseurl }}">
             {% endif %}
                 <h2>{{ project.title }}</h2>
                 {% if project.subhead %}
                 <h3>{{project.subhead}}</h3>
                 {% endif %}
-            
+
 
                 {% if project.image %}
                     <img src="{{ site.baseurl }}/images/{{project.image}}" alt="{{project.title}}" class="{{ project.title | slugify }}"/>
                 {% endif %}
                 </a>
 
-            <div>  
+            <div>
 
             {{ project.excerpt }}
 
             {% if project.link %}
-            <a href="{{ project.link }}" class='more'>Visit site</a>  
+            <a href="{{ project.link }}" class='more'>Visit site</a>
+            {% endif %}
+
+            {% if project.applink %}
+            <a href="{{ project.applink }}" class='more'>View in App Store</a>
             {% endif %}
 
             {% if project.directlink %}
@@ -41,7 +45,7 @@ layout: default
             <a href="{{ project.url | prepend: site.baseurl }}" class='more'>Screenshots &amp; nerd details→</a>
             </div>
             {% endif %}
-        </li> 
+        </li>
     {% endfor %}
   </ul>
 
@@ -51,7 +55,7 @@ layout: default
             <h3 class="page-heading" id="biography">Biography</h3>
 
 
-            <p>I'm a hacker that does design and development. My designs are simple and focused, not overdone. I am a pragmatic but not dogmatic developer. I spend more of my time as a developer than a designer, but I approach my development and programming work with the eyes of a designer.</p> 
+            <p>I'm a hacker that does design and development. My designs are simple and focused, not overdone. I am a pragmatic but not dogmatic developer. I spend more of my time as a developer than a designer, but I approach my development and programming work with the eyes of a designer.</p>
 
             <p>Most of my experience is with the world wide web, but I have also dabbled with native applications, interactive installations, and even some custom circuitry. My degree is in Interactive Multimedia which, at its core, is about understanding human interactions with technology.</p>
 
@@ -69,11 +73,11 @@ layout: default
                 <dt>2015, 2014, 2013</dt>
                 <dd><a href="http://rtdna.org/content/2015_national_edward_r_murrow_award_winners#LocalRadio">Edward R. Murrow Award, Best Radio Website, National Lage Market</a></dd>
 
-                <dt>2009</dt>  
+                <dt>2009</dt>
                 <dd><a href="http://www.walkerart.org/magazine/2009/walker-art-center-recipient-of-national-desig">National Design Award, Corporate and Institutional Achievement, Cooper-Hewitt, National Design Museum</a>
                 </dd>
-                <dt>2009</dt>  
-                <dd><a href="http://www.museumsandtheweb.com/forum/mw2009_best_web_sites_selected">Best of the Web Award, Most Innovative Website, Museums and the Web Conference</a></dd>    
+                <dt>2009</dt>
+                <dd><a href="http://www.museumsandtheweb.com/forum/mw2009_best_web_sites_selected">Best of the Web Award, Most Innovative Website, Museums and the Web Conference</a></dd>
             </dl>
         </li>
 
