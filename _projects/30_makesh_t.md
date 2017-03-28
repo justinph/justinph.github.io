@@ -3,7 +3,7 @@ layout: project
 title: MakeSh!t
 permalink: /projects/makesh_t/
 subhead: Weekly creative outlet
-link: http://www.makeshit.org
+link: http://makeshit.org
 image: makeshit.jpg
 excerpt:  <p>An elastic group of designers, writers, architects, and other creative pals meet weekly for late-night sessions of creative <em>making</em>. Sometimes just an excuse to drink beer and doodle aimlessly and/or make noise, the collaboration has borne fruit into two public art projects.</p>
 
